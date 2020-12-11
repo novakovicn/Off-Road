@@ -456,7 +456,8 @@ const submenu=[{title:"Best sellers",link:"index.html#bestSellers"},{title:"All 
 const social=[{title:'<i class="fa fa-facebook-official"></i>',link:"https://www.facebook.com/"},
 {title:'<i class="fa fa-instagram"></i>',link:'https://www.instagram.com/'},
 {title:'<i class="fa fa-twitter"></i>',link:'https://twitter.com/'},
-{title:'<i class="fa fa-youtube-play"></i>',link:'https://www.youtube.com/'}];
+{title:'<i class="fa fa-youtube-play"></i>',link:'https://www.youtube.com/'},
+{title:'<i class="fa fa-sitemap" aria-hidden="true"></i>',link:'sitemap.xml'}];
 function navWrite(array){
     for(let i=0;i<array.length;i++){
         const nav=document.querySelector("#menu");

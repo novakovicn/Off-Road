@@ -97,6 +97,7 @@
     //Order form
    
 }
+
 @media screen and (max-width:800px){
     #scrollTop{
         right:10px;
@@ -163,7 +164,11 @@
     .plus{
         right:10px;
     }
+    .filterbtn{
+        width: 30%;
+    }
      //Best Sellers
+
     .bestSeler,.product{
         width: 100%;
         h3{

@@ -168,6 +168,9 @@
   .plus {
     right: 10px;
   }
+  .filterbtn {
+    width: 30%;
+  }
   .bestSeler, .product {
     width: 100%;
   }
