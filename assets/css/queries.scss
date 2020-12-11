@@ -1,0 +1,320 @@
+@media screen and (min-width:1200px) and (max-width:1600px){
+    .bestSeler,.product{
+        width: 25%; 
+    }
+   .personalInfo{
+       width:100%;
+       margin:10px auto;
+   }
+    #footnav{
+        width:40%;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1250px){
+    #menu li{
+        padding:30px 10px;
+        a{
+            font-size:22px;
+        }
+    }
+    .message{
+        width: 80%;
+        h1{
+            font-size: 50px;
+        }
+        h2{
+            font-size: 40px;
+        }
+    }
+    #next,#prev{
+        font-size:35px;
+    }
+    //About
+    .textAbout{
+        padding: 10px;
+    }
+    .plus{
+        right:10px;
+        top:10px;
+    }
+     //Best Sellers
+    .bestSeler,.product{
+        width: 50%;
+        h3{
+            font-size:22px;
+        }
+    }
+    //Contact
+    #newsletter{
+        width:80%;
+        
+        input{
+            width: 60%;
+        }
+        button{
+            width: 30%;;
+        }
+    }
+    .fixedDiv{
+        top:5%;
+    }
+      //Details
+      .detaliName{
+        width:100%;
+    }
+    .detailImg{
+        width: 50%;
+    }
+    //Order form
+    #orderForm{
+        width:100%;
+    }
+    .row{
+        text-align: center;
+        justify-content: center;  
+    }
+    #pay{
+        padding:10px;
+        width:100%;
+        justify-content:center;
+        align-items: center;
+    }
+    #mob1,#mob2{
+        width:30%;
+    }
+    #cod,#card{
+        width:5%;
+    }
+    //Footer
+    #footnav,.social{
+        li{
+            padding: 5px;
+        }
+    }
+    .social{
+        margin-left:45px;
+    }
+    //Order form
+   
+}
+@media screen and (max-width:800px){
+    #scrollTop{
+        right:10px;
+        bottom:10px;
+    }
+    #logo{
+        width: 50%;
+        h1{
+            font-size:30px;
+        }
+    }
+    #responsive{
+        display: block;
+        width:40%;
+        padding-right: 20px;
+    }
+    #podmeni{
+        position: relative;
+    }
+    #menu{
+      display: none;
+      text-align: center;
+      li{
+          display: block;
+          padding: 10px;
+      }
+    }
+    #nav{
+        width: 100%;
+    }
+    #next,#prev{
+        font-size:25px;
+    }
+    .message{
+        width: 100%;
+        top:20%;
+        h1{
+            font-size:35px;
+        }
+        h2{
+            font-size: 25px;
+        }
+    }
+    @keyframes slide{
+        0%{
+            top:-100%;
+        }
+        100%{
+            top:20%;
+        }
+    }
+    //About
+    #textAbout{
+        width: 100%;
+        order:1;
+    }
+    .textAbout p{
+        word-wrap: break-word;
+        word-break: keep-all;
+        text-align: left;
+        font-size:22px;
+        //word-spacing: -5px;
+    }
+    .plus{
+        right:10px;
+    }
+     //Best Sellers
+    .bestSeler,.product{
+        width: 100%;
+        h3{
+            font-size:22px;
+        }
+    }
+    //Contact
+    #contact{
+        background-color:#15161d;
+        background-image: none;
+    }
+    #newsletter{
+        width:70%;
+        h2{
+            font-size:30px;
+        }
+        input{
+            width: 100%;
+        }
+        button{
+            width: 70%;;
+        }
+    }
+    //Details
+    .fixedDiv{
+        top:5%;
+    }
+    .detaliName{
+        width:100%;
+    }
+    .detailImg{
+        width: 100%;
+    }
+    //Footer
+    #footnav,.social{
+        width:100%;
+        li{
+            padding:10px;
+        }
+    }
+    //Order form
+    #orderForm{
+        width:100%;
+    }
+    #city,#zip{
+        width:100%;
+    }
+    #mob1,#mob2{
+        width:100%;
+    }
+    .personalInfo input{
+        width: 100%;
+    }
+    #finish{
+        button{
+            width:100%;
+        }
+      
+    }
+    #pay{
+        width:100%;
+        padding:10px;
+    }
+
+    #creditCard{
+        width:100%;
+    }
+    #additional span{
+        margin:20px 0px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:600px){
+    #logo{
+        width: 50%;
+        h1{
+            font-size:30px;
+        }
+    }
+    #responsive{
+        display: block;
+        width:40%;
+        padding-right: 20px;
+    }
+    #podmeni{
+        position: relative;
+    }
+    #menu{
+      display: none;
+      text-align: center;
+      li{
+          display: block;
+          padding: 5px;
+      }
+    }
+    #nav{
+        width: 100%;
+    }
+    #next,#prev{
+        font-size:25px;
+    }
+    .message{
+        display: none;
+    }
+    //About
+    #textAbout{
+        h2{
+            font-size:30px
+        }
+    }
+
+    .textAbout{
+        padding:10px;
+        p{
+            font-size: 20px;
+        }
+    }
+    .plus{
+        top:50%;
+    }
+    //Best Sellers
+    .wrapper{
+        width:100%;
+    }
+    .bestSeler,.product{
+        width: 100%;
+        padding:0px;
+        h3{
+            font-size:22px;
+        }
+    }
+    .options{
+        padding:0px;
+        button{
+            font-size:20px;
+
+        }
+    }
+    //Products
+    #products h2{
+        font-size:35px;
+    }
+    .filterbtn{
+        width: 70%;
+        margin:30px auto;
+    }
+    #footnav li{
+        display: inline-block;
+        padding: 10px;
+    }
+    #finishMessage h2{ 
+        font-size: 20px;
+    }
+}

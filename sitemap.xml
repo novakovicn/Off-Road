@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+		<loc>https://Off-Road.io/novakovic.nikola/index.html/</loc>
+		<lastmod>2020-12-11</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1</priority>
+	</url>
+    <url>
+		<loc>https:Off-Road.io/novakovic.nikola/contact.html/</loc>
+		<lastmod>2020-12-11</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.4</priority>
+	</url>
+</urlset>

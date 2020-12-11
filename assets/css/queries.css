@@ -1,0 +1,311 @@
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .bestSeler, .product {
+    width: 25%;
+  }
+  .personalInfo {
+    width: 100%;
+    margin: 10px auto;
+  }
+  #footnav {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1250px) {
+  #menu li {
+    padding: 30px 10px;
+  }
+  #menu li a {
+    font-size: 22px;
+  }
+  .message {
+    width: 80%;
+  }
+  .message h1 {
+    font-size: 50px;
+  }
+  .message h2 {
+    font-size: 40px;
+  }
+  #next, #prev {
+    font-size: 35px;
+  }
+  .textAbout {
+    padding: 10px;
+  }
+  .plus {
+    right: 10px;
+    top: 10px;
+  }
+  .bestSeler, .product {
+    width: 50%;
+  }
+  .bestSeler h3, .product h3 {
+    font-size: 22px;
+  }
+  #newsletter {
+    width: 80%;
+  }
+  #newsletter input {
+    width: 60%;
+  }
+  #newsletter button {
+    width: 30%;
+  }
+  .fixedDiv {
+    top: 5%;
+  }
+  .detaliName {
+    width: 100%;
+  }
+  .detailImg {
+    width: 50%;
+  }
+  #orderForm {
+    width: 100%;
+  }
+  .row {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #pay {
+    padding: 10px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #mob1, #mob2 {
+    width: 30%;
+  }
+  #cod, #card {
+    width: 5%;
+  }
+  #footnav li, .social li {
+    padding: 5px;
+  }
+  .social {
+    margin-left: 45px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #scrollTop {
+    right: 10px;
+    bottom: 10px;
+  }
+  #logo {
+    width: 50%;
+  }
+  #logo h1 {
+    font-size: 30px;
+  }
+  #responsive {
+    display: block;
+    width: 40%;
+    padding-right: 20px;
+  }
+  #podmeni {
+    position: relative;
+  }
+  #menu {
+    display: none;
+    text-align: center;
+  }
+  #menu li {
+    display: block;
+    padding: 10px;
+  }
+  #nav {
+    width: 100%;
+  }
+  #next, #prev {
+    font-size: 25px;
+  }
+  .message {
+    width: 100%;
+    top: 20%;
+  }
+  .message h1 {
+    font-size: 35px;
+  }
+  .message h2 {
+    font-size: 25px;
+  }
+  @-webkit-keyframes slide {
+    0% {
+      top: -100%;
+    }
+    100% {
+      top: 20%;
+    }
+  }
+  @keyframes slide {
+    0% {
+      top: -100%;
+    }
+    100% {
+      top: 20%;
+    }
+  }
+  #textAbout {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .textAbout p {
+    word-wrap: break-word;
+    word-break: keep-all;
+    text-align: left;
+    font-size: 22px;
+  }
+  .plus {
+    right: 10px;
+  }
+  .bestSeler, .product {
+    width: 100%;
+  }
+  .bestSeler h3, .product h3 {
+    font-size: 22px;
+  }
+  #contact {
+    background-color: #15161d;
+    background-image: none;
+  }
+  #newsletter {
+    width: 70%;
+  }
+  #newsletter h2 {
+    font-size: 30px;
+  }
+  #newsletter input {
+    width: 100%;
+  }
+  #newsletter button {
+    width: 70%;
+  }
+  .fixedDiv {
+    top: 5%;
+  }
+  .detaliName {
+    width: 100%;
+  }
+  .detailImg {
+    width: 100%;
+  }
+  #footnav, .social {
+    width: 100%;
+  }
+  #footnav li, .social li {
+    padding: 10px;
+  }
+  #orderForm {
+    width: 100%;
+  }
+  #city, #zip {
+    width: 100%;
+  }
+  #mob1, #mob2 {
+    width: 100%;
+  }
+  .personalInfo input {
+    width: 100%;
+  }
+  #finish button {
+    width: 100%;
+  }
+  #pay {
+    width: 100%;
+    padding: 10px;
+  }
+  #creditCard {
+    width: 100%;
+  }
+  #additional span {
+    margin: 20px 0px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #logo {
+    width: 50%;
+  }
+  #logo h1 {
+    font-size: 30px;
+  }
+  #responsive {
+    display: block;
+    width: 40%;
+    padding-right: 20px;
+  }
+  #podmeni {
+    position: relative;
+  }
+  #menu {
+    display: none;
+    text-align: center;
+  }
+  #menu li {
+    display: block;
+    padding: 5px;
+  }
+  #nav {
+    width: 100%;
+  }
+  #next, #prev {
+    font-size: 25px;
+  }
+  .message {
+    display: none;
+  }
+  #textAbout h2 {
+    font-size: 30px;
+  }
+  .textAbout {
+    padding: 10px;
+  }
+  .textAbout p {
+    font-size: 20px;
+  }
+  .plus {
+    top: 50%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .bestSeler, .product {
+    width: 100%;
+    padding: 0px;
+  }
+  .bestSeler h3, .product h3 {
+    font-size: 22px;
+  }
+  .options {
+    padding: 0px;
+  }
+  .options button {
+    font-size: 20px;
+  }
+  #products h2 {
+    font-size: 35px;
+  }
+  .filterbtn {
+    width: 70%;
+    margin: 30px auto;
+  }
+  #footnav li {
+    display: inline-block;
+    padding: 10px;
+  }
+  #finishMessage h2 {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=queries.css.map */
